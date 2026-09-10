@@ -12,7 +12,7 @@ export default function Home() {
         Most Straightforward URL shortener
       </p>
        <div className='flex gap-3'>
-          <Link href="/generate"><button className='bg-purple-500 rounded-lg shadow-lg p-3 py-1 font-bold text-white' >Try Now</button></Link>
+          <Link href="/shorten"><button className='bg-purple-500 rounded-lg shadow-lg p-3 py-1 font-bold text-white' >Try Now</button></Link>
           <Link href="/github"><button className='bg-purple-500 rounded-lg shadow-lg p-3 py-1 font-bold text-white' >GitHub</button></Link>
       </div>
      </div>
