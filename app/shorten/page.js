@@ -45,9 +45,9 @@ const Shorten = () => {
         <button onClick={generate} className='bg-purple-500 rounded-lg shadow-lg p-3 py-1 my-3 font-bold text-white'>Generate</button>
       </div>
 
-      {generated && <code>
-       Your Link: <Link target='_blank' href={generated} >{generated}</Link> 
-        </code>}
+      {generated && <><span className='font-bold text-lg'>Your Link</span>
+        <code><Link target='_blank' href={generated} >{generated}</Link> 
+        </code></>}
     </div>
   )
 }
